@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="dsh-3d-print">
+  <g fill="none" stroke="currentColor" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round">
+    <!-- isometric cube: the printed part -->
+    <path d="M32 8 54 20v24L32 56 10 44V20z"/>
+    <path d="M10 20l22 12 22-12"/>
+    <path d="M32 32v24"/>
+    <!-- hook: the thing it prints -->
+    <path d="M40 27v-6a5 5 0 0 1 10 0v5" stroke-width="2.6"/>
+  </g>
+  <circle cx="32" cy="32" r="2.4" fill="currentColor"/>
+</svg>

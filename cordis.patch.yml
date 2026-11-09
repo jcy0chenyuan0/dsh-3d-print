@@ -1,0 +1,17 @@
+# dsh-3d-print — profile 补丁层（bundle）
+#
+# 把本插件挂到 profile 的 loader 树上。
+#
+# ⚠️ 这里用**绝对路径**而不是包名，原因和 dsh-plugin-python 一样：profile 对裸包名
+#    的解析走的是已安装 Harness 自己的模块树（app.asar 内），不是 profile 的
+#    node_modules，写包名会在加载时 404。
+#
+# 安装 / 启用：
+#     plugin_manager  action=install_bundle  target=<本目录绝对路径>
+# 装完在 GUI「设置 → 插件」里能看到，并可整体停用。
+#
+# 仓库搬家 / 改名后，只需改下面这一行的 name。
+- insert:
+    - id: dsh-3d-print
+      name: 'C:\project\python\26.10.31-26.11.15\dsh_3d print\lib\index.js'
+      config: {}

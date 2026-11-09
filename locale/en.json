@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "title": "3D Print Workbench",
+    "description": "Parametric OpenSCAD modeling, mesh QA, slicer interop, a Blender bridge, and a calibration test-body library — one built-in toolchain."
+  },
+  "tools": {
+    "doctor": "Probe OpenSCAD / Blender / slicer installs and report what is missing",
+    "setup": "Install OpenSCAD automatically (source auto-selected: winget → upstream → mirror)",
+    "render": "Render .scad to STL / 3MF / PNG with parameter overrides and camera",
+    "check": "Mesh QA: watertightness, volume, bounds, real overhang, bed fit",
+    "parts": "Calibration test-body library: list, export, generate",
+    "slice": "Detect installed slicers, slice from the CLI or open the GUI",
+    "blender": "Blender bridge: open, export GLB, headless scripted edits",
+    "selftest": "Built-in regression run over the standard test bodies"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "title": "3D 打印工作台",
+    "description": "OpenSCAD 参数化建模、网格体检、切片器直连、Blender 桥接与校准测试体库，一套工具链全部内置。"
+  },
+  "tools": {
+    "doctor": "自检 OpenSCAD / Blender / 切片器环境，给出缺什么、怎么补",
+    "setup": "自动安装 OpenSCAD（自动选源：winget → 官方 → 镜像加速）",
+    "render": "把 .scad 渲染成 STL / 3MF / PNG，可传参、可指定相机",
+    "check": "网格体检：水密性、体积、包围盒、真悬垂、床内适配",
+    "parts": "标准测试体库：列出 / 导出 / 一键生成",
+    "slice": "识别本机切片器，命令行切片或直接打开",
+    "blender": "Blender 桥接：打开、GLB 导出、无头脚本修改",
+    "selftest": "内置回归测试：标准体全流程自检"
+  }
+}
